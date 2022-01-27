@@ -26,14 +26,14 @@
 
 This repository serves as the "all-in-one" area for my Google Data Analytics Capstone project's code and report. The project can also be found on my website here (TBA): ...
 
-- [Increasing profits by converting casual members to annual members](#Increasing profits by converting casual members to annual members)
-- [[1] Project Description](#[1]project Description)
-    - [1.1) Scenario](#[1.1]scenario)
-    - [1.2) About the company](#[1.2]about the company)
-    - [1.3) Business task](#[1.3]business task)
-- [[2] Methods used](#[2]methods used)
-    - [2.1] Data Preparation(#[2.1]data Preparation)
-    - [2.2] Data Processing(#[2.2]data processing)
+- [Increasing profits by converting casual members to annual members](#increasing-profits-by-converting-casual-members-to-annual-members)
+- [[1] Project Description](#[1]project-description)
+    - [[1.1] Scenario](#[1.1]scenario)
+    - [[1.2] About the company](#[1.2]about-the-company)
+    - [[1.3)] Business task](#[1.3]business-task)
+- [[2] Methods used](#[2]methods-used)
+    - [[2.1] Data Preparation](#[2.1]data-preparation)
+    - [[2.2] Data Processing](#[2.2]data-processing)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
@@ -92,24 +92,6 @@ aka purpose of the project
 Here is a random GIF as a placeholder.
 
 ![Random GIF](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif) -->
-
-# Table of contents
-
-<!-- After you have introduced your project, it is a good idea to add a **Table of contents** or **TOC** as **cool** people say it. This would make it easier for people to navigate through your README and find exactly what they are looking for.
-
-Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README. -->
-
-- [Project Title](#project-title)
-- [Demo-Preview](#demo-preview)
-- [Table of contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Development](#development)
-- [Contribute](#contribute)
-    - [Sponsor](#sponsor)
-    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
-- [License](#license)
-- [Footer](#footer)
 
 # Installation
 [(Back to top)](#table-of-contents)
