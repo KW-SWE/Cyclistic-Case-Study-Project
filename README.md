@@ -27,11 +27,13 @@
 This repository serves as the "all-in-one" area for my Google Data Analytics Capstone project's code and report. The project can also be found on my website here (TBA): ...
 
 - [Increasing profits by converting casual members to annual members](#Increasing profits by converting casual members to annual members)
-- [1) Project Description](#Project Description)
-    - [1.a) Scenario](#scenario)
-    - [1.b) About the company](#about the company)
-    - [1.c) Business task](#business task)
-- [Methods used](#methods used]
+- [[1] Project Description](#[1]project Description)
+    - [1.1) Scenario](#[1.1]scenario)
+    - [1.2) About the company](#[1.2]about the company)
+    - [1.3) Business task](#[1.3]business task)
+- [[2] Methods used](#[2]methods used)
+    - [2.1] Data Preparation(#[2.1]data Preparation)
+    - [2.2] Data Processing(#[2.2]data processing)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
@@ -41,15 +43,15 @@ This repository serves as the "all-in-one" area for my Google Data Analytics Cap
 - [License](#license)
 - [Footer](#footer)
 
-## 1) Project description 
+## [1] Project description 
 
-### 1.a) Scenario
+### [1.1] Scenario
 
 *The scenario set by Google for this case study is the following:*
 
 > You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-### 1.b) About the company
+### [1.2] About the company
 
 Cyclistic is a bike-sharing service launched in 2016 with a fleet of 5,824 bicycles and a network of 692 stations across Chicago. The 3 types of bikes they offer are electric, classic, and "docked" bikes; docked bikes are bikes that have been locked to public bike rack or pole. "Casual riders" are those that use the single and full-day passes and those that have annual memberships are Cyclistic "members".
 
@@ -66,18 +68,18 @@ My hypotheses to be reviewed at the end of the analysis:
     - 3) Annual members may justify purchasing the annual pass if they are able to use it enough times to cover purchasing the equivalent number of single or daily-passes, and more. Thus, weekdays may show a higher number of annual members than casuals as an annual members are most likely to use the service at least twice a day for work commutes. 
     - 4) Certain parts of the city may have more of one type of member. Areas such as around a park could have more casual members enjoying a nice bike ride.
 
-### 1.c) Business task
+### [1.3] Business task
 
 Determine how Cyclistic casual members use the service differently from annual members to help develop a new marketing strategy and convert casual members into annual members. Increasing the number of annual members is hypothesized to maximize the company's long-term success by increasing revenue. 
 aka purpose of the project
 
 [(Back to top)]
 
-## 2) Methods used
+## [2] Methods used
 
-### 2.a) Data Preparation
+### [2.1] Data Preparation
 
-### 2.b) Data Processing
+### [2.2] Data Processing
 
 ## 3) Installation instructions
 
