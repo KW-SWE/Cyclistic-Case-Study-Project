@@ -26,8 +26,8 @@
 
 This repository serves as the "all-in-one" area for my Google Data Analytics Capstone project's code and report. The project can also be found on my website here (TBA): ...
 
-- [Project Title](#Increasing profits by converting casual members to annual members)
-- [Project Description](#Project Description)
+- [Increasing profits by converting casual members to annual members](#Increasing profits by converting casual members to annual members)
+- [1) Project Description](#Project Description)
     - [1.a) Scenario](#scenario)
     - [1.b) About the company](#about the company)
     - [1.c) Business task](#business task)
