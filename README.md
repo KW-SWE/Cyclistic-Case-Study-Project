@@ -50,9 +50,10 @@ This repository serves as the "all-in-one" area for my Google Data Analytics Cap
 Cyclistic is a bike-sharing service launched in 2016 with a fleet of 5,824 bicycles and a network of 692 stations across Chicago. The 3 types of bikes they offer are electric, classic, and "docked" bikes; docked bikes are bikes that have been locked to public bike rack or pole. "Casual riders" are those that use the single and full-day passes and those that have annual memberships are Cyclistic "members".
 
 The pricing plans they offer are (in USD): 
-  - single-ride passes: \$3.30/trip (up to 30 minutes, \$0.15/min after))
-  - full-day passes: \$15/day (unlimited 3 hour rides in a 24-hour period)
-  - annual memberships: \$9/month which is billed \$108 upfront (Unlimited 45 minute rides, \$0.15/min after)
+
+    - single-ride passes: \$3.30/trip (up to 30 minutes, \$0.15/min after))
+    - full-day passes: \$15/day (unlimited 3 hour rides in a 24-hour period)
+    - annual memberships: \$9/month which is billed \$108 upfront (Unlimited 45 minute rides, \$0.15/min after)
 
 ### [1.2] Business task
 
@@ -67,7 +68,7 @@ The financial analysts at Cyclistic have determined that converting casual membe
 ### [2.1] Data Preparation
 [(Back to top)](#table-of-contents)
 
-We will be using data Collected by Divvy and made available by Motivate International Inc. under the license located here (https://www.divvybikes.com/data-license-agreement). Using the R programming language, 12 CVS files were combined with the first starting from November 2020 and last was October 2021, approximately 1-year of data. Each month is used only once to remove bias towards a certain month and possibly a certain season. Note - No personal information stored and each ride is given a unique ride ID. 
+We will be using data collected by Divvy (Cyclistic is the made-up name for this project) and made available by Motivate International Inc. under the license located here (https://www.divvybikes.com/data-license-agreement). Using the R programming language, 12 CVS files were aggregated with the first starting from November 2020 and last was October 2021, approximately 1-year of data. Each month is used only once to remove bias towards a certain month and possibly a certain season. Note - No personal information stored and each ride is given a unique ride ID. 
 
 Since the data was collected by Divvy with their own GPS trackers on each bike, stored in their own servers, and the customer's information is not recorded in these files, data integrity (the accuracy, consistency, and security of data) is of little concern. 
 
@@ -89,10 +90,12 @@ The data was wrangled by:
     - Adding columns for when the day of the week, the month, the year, as well as the time of the day the ride was
     - ordering the days and months by chronological order for visualization purposes 
 
-The full data cleaning process can be found in a separate report under "Cyclistic Data Cleaning Process". 
+**The full data cleaning process can be found in a separate file under [Cyclistic Data Cleaning Process].(docs/cyclistic-data-cleaning-process)**
 
 ### [2.3] Data Analysis
 [(Back to top)](#table-of-contents)
+
+Visualizations can be found in the 
 
 ## 3) Running instructions
 [(Back to top)](#table-of-contents)
@@ -120,6 +123,7 @@ To use this project, first clone the repo on your device using the command below
 ## 4) Updates to be made
 
 The following are some things I would like to add to this project for a deeper analysis:
+
     - Sample size calculation to determine the exact number of annual memberships needed to convert for maximum success 
     - Inferential stats (in section 2): One sample test of difference/One sample hypothesis test, Confidence Interval, Contingency Tables and Chi Square Statistic, T-test or Anova, Pearson Correlation, Bi-variate Regression, Multi-variate Regression.
     - Predictive analysis: using machine learning models on historical data to optimize marketing campaign
