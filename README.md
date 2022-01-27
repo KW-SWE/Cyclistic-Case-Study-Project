@@ -73,7 +73,7 @@ My hypotheses to be reviewed at the end of the analysis:
 Determine how Cyclistic casual members use the service differently from annual members to help develop a new marketing strategy and convert casual members into annual members. Increasing the number of annual members is hypothesized to maximize the company's long-term success by increasing revenue. 
 aka purpose of the project
 
-[(Back to top)]
+[(Back to top)](#increasing-profits-by-converting-casual-members-to-annual-members)
 
 ## [2] Methods used
 
