@@ -28,13 +28,13 @@ This repository serves as the "all-in-one" area for my Google Data Analytics Cap
 
 - [Increasing profits by converting casual members to annual members](#increasing-profits-by-converting-casual-members-to-annual-members)
 - [[1] Project Description](#[1]project-description)
-    - [[1.1] Scenario](#[1.1]scenario)
-    - [[1.2] About the company](#[1.2]about-the-company)
-    - [[1.3)] Business task](#[1.3]business-task)
+    - [[1.1] About the company](#[1.1]about-the-company)
+    - [[1.2)] Business task](#[1.2]business-task)
 - [[2] Methods used](#[2]methods-used)
     - [[2.1] Data Preparation](#[2.1]data-preparation)
     - [[2.2] Data Processing](#[2.2]data-processing)
-- [Installation](#installation)
+    - [[2.3] Data Analysis](#[2.3]data-analysis)
+- [[3] Running Instructions](#[3]running-instructions)
 - [Usage](#usage)
 - [Development](#development)
 - [Contribute](#contribute)
@@ -45,13 +45,7 @@ This repository serves as the "all-in-one" area for my Google Data Analytics Cap
 
 ## [1] Project description 
 
-### [1.1] Scenario
-
-*The scenario set by Google for this case study is the following:*
-
-> You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
-
-### [1.2] About the company
+### [1.1] About the company
 
 Cyclistic is a bike-sharing service launched in 2016 with a fleet of 5,824 bicycles and a network of 692 stations across Chicago. The 3 types of bikes they offer are electric, classic, and "docked" bikes; docked bikes are bikes that have been locked to public bike rack or pole. "Casual riders" are those that use the single and full-day passes and those that have annual memberships are Cyclistic "members".
 
@@ -59,42 +53,51 @@ The pricing plans they offer are (in USD):
   - single-ride passes: \$3.30/trip (up to 30 minutes, \$0.15/min after))
   - full-day passes: \$15/day (unlimited 3 hour rides in a 24-hour period)
   - annual memberships: \$9/month which is billed \$108 upfront (Unlimited 45 minute rides, \$0.15/min after)
-    
-The financial analysts at Cyclistic have determined that converting casual members to annual members will maximize the success of the company by increasing revenue. The marketing analyst team has been tasked with finding out how annual and casual members use Cyclistic's bike share service differently to help the marketing strategy team devise a media campaign to convert more casual members to Cyclistic members. 
 
-My hypotheses to be reviewed at the end of the analysis: 
-    - 1) Casual members are single-pass or daily-pass users because they only need it for a short amount of time, and do not think they would use an annual membership enough to justify the cost. 
-    - 2) The weekends may show a higher number of casual riders since people are off work and may want to enjoy a weekend bike ride at the park or around the city
-    - 3) Annual members may justify purchasing the annual pass if they are able to use it enough times to cover purchasing the equivalent number of single or daily-passes, and more. Thus, weekdays may show a higher number of annual members than casuals as an annual members are most likely to use the service at least twice a day for work commutes. 
-    - 4) Certain parts of the city may have more of one type of member. Areas such as around a park could have more casual members enjoying a nice bike ride.
+### [1.2] Business task
 
-### [1.3] Business task
-
-Determine how Cyclistic casual members use the service differently from annual members to help develop a new marketing strategy and convert casual members into annual members. Increasing the number of annual members is hypothesized to maximize the company's long-term success by increasing revenue. 
-aka purpose of the project
+The financial analysts at Cyclistic have determined that converting casual members to annual members will maximize the long-term success of the company by increasing revenue. The marketing analyst team has been tasked with finding out how annual and casual members use Cyclistic's bike share service differently to help the marketing strategy team devise a media campaign to convert more casual members to Cyclistic members. The recommendations provided from the analysis will be reviewed by the Cyclistic executives. 
 
 [(Back to top)](#increasing-profits-by-converting-casual-members-to-annual-members)
 
 ## [2] Methods used
+- inferential stats (would need to add to actual project)
+- descriptive stats
 
 ### [2.1] Data Preparation
+[(Back to top)](#table-of-contents)
+
+We will be using data Collected by Divvy and made available by Motivate International Inc. under the license located here (https://www.divvybikes.com/data-license-agreement). Using the R programming language, 12 CVS files were combined with the first starting from November 2020 and last was October 2021, approximately 1-year of data. Each month is used only once to remove bias towards a certain month and possibly a certain season. Note - No personal information stored and each ride is given a unique ride ID. 
+
+Since the data was collected by Divvy with their own GPS trackers on each bike, stored in their own servers, and the customer's information is not recorded in these files, data integrity (the accuracy, consistency, and security of data) is of little concern. 
+
+The data had rows with blank cells, station names that were for testing/repair purposes, negative values considered errors, duplicate rows, along with various other things. Before analyzing the data, there was data cleaning and wrangling done to help answer our questions.
 
 ### [2.2] Data Processing
-
-## 3) Installation instructions
-
-# Demo-Preview
-
-<!-- Add a demo for your project -->
-
-<!-- After you have written about your project, it is a good idea to have a demo/preview(**video/gif/screenshots** are good options) of your project so that people can know what to expect in your project. You could also add the demo in the previous section with the product description.
-
-Here is a random GIF as a placeholder.
-
-![Random GIF](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif) -->
-
-# Installation
 [(Back to top)](#table-of-contents)
+
+The data was cleaned by:
+
+    - deleting incomplete rows as cells were missing data. Which could be due to data transfer error from the bike to Cyclistic's cloud
+    - no duplicate rows were found
+    - removing rows where the station was for testing or repair purposes
+    - removing "docked bike" rows as those bikes were locked to poles or public bike racks, and aren't useful for our analysis
+    
+The data was wrangled by:
+
+    - adding a column calculating the ride length ("ride_length"). Negative durations were removed. 
+    - Adding columns for when the day of the week, the month, the year, as well as the time of the day the ride was
+    - ordering the days and months by chronological order for visualization purposes 
+
+The full data cleaning process can be found in a separate report under "Cyclistic Data Cleaning Process". 
+
+### [2.3] Data Analysis
+[(Back to top)](#table-of-contents)
+
+## 3) Running instructions
+[(Back to top)](#table-of-contents)
+
+-how to run/replicate
 
 <!-- *You might have noticed the **Back to top** button(if not, please notice, it's right there!). This is a good idea because it makes your README **easy to navigate.*** 
 
@@ -114,49 +117,13 @@ To use this project, first clone the repo on your device using the command below
 
 ```git clone https://github.com/navendu-pottekkat/nsfw-filter.git``` -->
 
-# Usage
-[(Back to top)](#table-of-contents)
+## 4) Updates to be made
 
-<!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
-
-# Development
-[(Back to top)](#table-of-contents)
-
-<!-- This is the place where you give instructions to developers on how to modify the code.
-
-You could give **instructions in depth** of **how the code works** and how everything is put together.
-
-You could also give specific instructions to how they can setup their development environment.
-
-Ideally, you should keep the README simple. If you need to add more complex explanations, use a wiki. Check out [this wiki](https://github.com/navendu-pottekkat/nsfw-filter/wiki) for inspiration. -->
-
-# Contribute
-[(Back to top)](#table-of-contents)
-
-<!-- This is where you can let people know how they can **contribute** to your project. Some of the ways are given below.
-
-Also this shows how you can add subsections within a section. -->
-
-### Sponsor
-[(Back to top)](#table-of-contents)
-
-<!-- Your project is gaining traction and it is being used by thousands of people(***with this README there will be even more***). Now it would be a good time to look for people or organisations to sponsor your project. This could be because you are not generating any revenue from your project and you require money for keeping the project alive.
-
-You could add how people can sponsor your project in this section. Add your patreon or GitHub sponsor link here for easy access.
-
-A good idea is to also display the sponsors with their organisation logos or badges to show them your love!(*Someday I will get a sponsor and I can show my love*) -->
-
-### Adding new features or fixing bugs
-[(Back to top)](#table-of-contents)
-
-<!-- This is to give people an idea how they can raise issues or feature requests in your projects. 
-
-You could also give guidelines for submitting and issue or a pull request to your project.
-
-Personally and by standard, you should use a [issue template](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/ISSUE_TEMPLATE.md) and a [pull request template](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/PULL_REQ_TEMPLATE.md)(click for examples) so that when a user opens a new issue they could easily format it as per your project guidelines.
-
-You could also add contact details for people to get in touch with you regarding your project. -->
-
+The following are some things I would like to add to this project for a deeper analysis:
+    - Sample size calculation to determine the exact number of annual memberships needed to convert for maximum success 
+    - Inferential stats (in section 2): One sample test of difference/One sample hypothesis test, Confidence Interval, Contingency Tables and Chi Square Statistic, T-test or Anova, Pearson Correlation, Bi-variate Regression, Multi-variate Regression.
+    - Predictive analysis: using machine learning models on historical data to optimize marketing campaign
+    
 # License
 [(Back to top)](#table-of-contents)
 
