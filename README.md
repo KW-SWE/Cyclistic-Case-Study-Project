@@ -68,16 +68,18 @@ The financial analysts at Cyclistic have determined that converting casual membe
 ### [2.1] Data Preparation
 [(Back to top)](#table-of-contents)
 
-We will be using data collected by Divvy (Cyclistic is the made-up name for this project) and made available by Motivate International Inc. under the license located here (https://www.divvybikes.com/data-license-agreement). Using the R programming language, 12 CVS files were aggregated with the first starting from November 2020 and last was October 2021, approximately 1-year of data. Each month is used only once to remove bias towards a certain month and possibly a certain season. Note - No personal information stored and each ride is given a unique ride ID. 
+We will be using data collected by Divvy (Cyclistic is the made-up name for this project) and made available by Motivate International Inc. under the license located here (https://www.divvybikes.com/data-license-agreement). Using the R programming language, 12 CSV files were aggregated with the first file starting from November 2020 and the last file was October 2021, approximately 1-year of data. Each month is used only once to remove bias towards a certain month and possibly a certain season. Note - No personal information stored and each ride is given a unique ride ID. 
+
+Data integrity is the accuracy, consistency, reliability, and security of the data.
 
 Since the data was collected by Divvy with their own GPS trackers on each bike, the accuracy of the data would be quite reliable. However, with any piece of technology, there is bound to be some errors and inconsistencies:
-    - test
+- GPS tracker it not calibrated correctly and location data is now inaccurate
+- Errors during the data transfer (i.e. connection interruptions)from the bike to the cloud servers causing loss of data or corrupted files
+- Error during the connection between the bike and the users phone causing potential errors/corruption in the data
 
-stored in their own servers, 
+The data is stored in Divvy's own servers and the customer's information is not recorded in the files. Thus, there isn't much of a concern for the security of the data and any data breach of sensitive information. However, this is not in regards to any other sensitive information collected from the user's account details in other servers. If 
 
-and the customer's information is not recorded in these files, 
-
-data integrity (the accuracy, consistency, and security of data) is of little concern. 
+data integrity (the accuracy, consistency, reliability, and security? of data) is of little concern. 
 
 Thus, the credibility of the data 
 
