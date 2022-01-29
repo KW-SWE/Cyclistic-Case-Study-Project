@@ -29,7 +29,7 @@ This repository serves as the "all-in-one" area for my Google Data Analytics Cap
 - [Increasing profits by converting casual members to annual members](#increasing-profits-by-converting-casual-members-to-annual-members)
 - [[1] Project Description](#[1]project-description)
     - [[1.1] About the company](#[1.1]about-the-company)
-    - [[1.2)] Business task](#[1.2]business-task)
+    - [[1.2] Business task](#[1.2]business-task)
 - [[2] Methods used](#[2]methods-used)
     - [[2.1] Data Preparation](#[2.1]data-preparation)
     - [[2.2] Data Processing](#[2.2]data-processing)
@@ -51,9 +51,9 @@ Cyclistic is a bike-sharing service launched in 2016 with a fleet of 5,824 bicyc
 
 The pricing plans they offer are (in USD): 
 
-    - single-ride passes: \$3.30/trip (up to 30 minutes, \$0.15/min after))
-    - full-day passes: \$15/day (unlimited 3 hour rides in a 24-hour period)
-    - annual memberships: \$9/month which is billed \$108 upfront (Unlimited 45 minute rides, \$0.15/min after)
+    - single-ride passes: $3.30/trip (up to 30 minutes, $0.15/min after))
+    - full-day passes: $15/day (unlimited 3 hour rides in a 24-hour period)
+    - annual memberships: $9/month which is billed $108 upfront (Unlimited 45 minute rides, $0.15/min after)
 
 ### [1.2] Business task
 
@@ -61,7 +61,7 @@ The financial analysts at Cyclistic have determined that converting casual membe
 
 [(Back to top)](#increasing-profits-by-converting-casual-members-to-annual-members)
 
-## [2] Methods used
+## [2] Prepare, process, analyze, visualize data
 - inferential stats (would need to add to actual project)
 - descriptive stats
 
@@ -70,7 +70,16 @@ The financial analysts at Cyclistic have determined that converting casual membe
 
 We will be using data collected by Divvy (Cyclistic is the made-up name for this project) and made available by Motivate International Inc. under the license located here (https://www.divvybikes.com/data-license-agreement). Using the R programming language, 12 CVS files were aggregated with the first starting from November 2020 and last was October 2021, approximately 1-year of data. Each month is used only once to remove bias towards a certain month and possibly a certain season. Note - No personal information stored and each ride is given a unique ride ID. 
 
-Since the data was collected by Divvy with their own GPS trackers on each bike, stored in their own servers, and the customer's information is not recorded in these files, data integrity (the accuracy, consistency, and security of data) is of little concern. 
+Since the data was collected by Divvy with their own GPS trackers on each bike, the accuracy of the data would be quite reliable. However, with any piece of technology, there is bound to be some errors and inconsistencies:
+    - test
+
+stored in their own servers, 
+
+and the customer's information is not recorded in these files, 
+
+data integrity (the accuracy, consistency, and security of data) is of little concern. 
+
+Thus, the credibility of the data 
 
 The data had rows with blank cells, station names that were for testing/repair purposes, negative values considered errors, duplicate rows, along with various other things. Before analyzing the data, there was data cleaning and wrangling done to help answer our questions.
 
@@ -95,9 +104,12 @@ The data was wrangled by:
 ### [2.3] Data Analysis
 [(Back to top)](#table-of-contents)
 
-Visualizations can be found in the 
+the Visualization code can be found in the 
 
-## 3) Running instructions
+## [3] Summary
+
+- document conclusions and recommendations
+## [4] Running instructions
 [(Back to top)](#table-of-contents)
 
 -how to run/replicate
