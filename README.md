@@ -108,8 +108,7 @@ The full code for the following statistical analysis and visualizations can be f
 As mentioned earlier, Cyclistic's financial analysts have concluded that annual members, labeled "members" in the dataset, are the key to the company's long-term success as they are more profitable.
 
 From the following visualization, we can see that the annual members take more trips than casual members. 
-[![](./Report visualizations/Num_trips_per_type.JPG)]
-
+<br><br><a href="/Report visualizations/Num_trips_per_type.JPG"><img src="/Report visualizations/Num_trips_per_type.JPG" style="width:70%;height:70%"/></a><br><br>
 
 ## [3] Summary
 
@@ -164,7 +163,7 @@ I personally add the name of the license and provide a link to it like below. --
 
 Let's make it an image because by now you have realised that multimedia in images == cool(*please notice the subtle programming joke). -->
 
-Leave a star in GitHub if you liked this!.
+Leave a star in GitHub if you liked this!
 
 <!-- Add the footer here -->
 
