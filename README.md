@@ -32,7 +32,7 @@ This repository serves as the "all-in-one" area for my Google Data Analytics Cap
     - [[2.1] Data Preparation](#[2.1]data-preparation)
     - [[2.2] Data Processing](#[2.2]data-processing)
     - [[2.3] Data Analysis](#[2.3]data-analysis)
-- [[3] Summary](#[3]summary
+- [[3] Summary](#[3]summary)
 - [[4] Running Instructions](#[4]running-instructions)
 - [[5] Future updates to be made](#[5]updates-to-be-made)
 - [Usage](#usage)
@@ -72,18 +72,14 @@ We will be using data collected by Divvy (Cyclistic is the made-up name for this
 
 Data integrity is the accuracy, consistency, reliability, and security of the data.
 
-Since the data was collected by Divvy with their own GPS trackers on each bike, the accuracy of the data would be quite reliable. However, with any piece of technology, there is bound to be some errors and inconsistencies:
+Since the data was collected by Divvy with their own GPS trackers on each bike, the accuracy, consistency, reliability of the data would be quite reliable. However, with any piece of technology, there is bound to be some errors and inconsistencies:
 - GPS tracker it not calibrated correctly and location data is now inaccurate
 - Errors during the data transfer (i.e. connection interruptions)from the bike to the cloud servers causing loss of data or corrupted files
 - Error during the connection between the bike and the users phone causing potential errors/corruption in the data
 
-The data is stored in Divvy's own servers and the customer's information is not recorded in the files. Thus, there isn't much of a concern for the security of the data and any data breach of sensitive information. However, this is not in regards to any other sensitive information collected from the user's account details in other servers. If 
+The data is stored in Divvy's own servers and the customer's information is not recorded in the files. Thus, there isn't much of a concern for the security of the data and any data breach of sensitive information. However, any other sensitive information collected from the user's account details in other servers will not be related to this analysis.  
 
-data integrity (the accuracy, consistency, reliability, and security? of data) is of little concern. 
-
-Thus, the credibility of the data 
-
-The data had rows with blank cells, station names that were for testing/repair purposes, negative values considered errors, duplicate rows, along with various other things. Before analyzing the data, there was data cleaning and wrangling done to help answer our questions.
+Thus, the credibility and integrity of the data is valid.
 
 ### [2.2] Data Processing
 [(Back to top)](#[1]project-description)
