@@ -154,13 +154,13 @@ I personally add the name of the license and provide a link to it like below. --
 [GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
 
 # Footer
-[(Back to top)](#table-of-contents)
+[(Back to top)](#[1]project-description)
 
 <!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
 
 Let's make it an image because by now you have realised that multimedia in images == cool(*please notice the subtle programming joke). -->
 
-Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
+Leave a star in GitHub if you liked this!.
 
 <!-- Add the footer here -->
 
