@@ -25,6 +25,9 @@
 
 This repository serves as the "all-in-one" area for my Google Data Analytics Capstone project's code and report. The README file is a summary of the file that houses the full report along with the code. The project can also be found on my portfolio here: www.kevinwong-ds.github.io.
 
+---
+
+## Table of Contents[!](#table-of-contents)
 - [[1] Project Description](#[1]project-description)
     - [[1.1] About the company](#[1.1]about-the-company)
     - [[1.2] Business task](#[1.2]business-task)
@@ -64,7 +67,7 @@ The financial analysts at Cyclistic have determined that converting casual membe
 - descriptive stats
 
 ### [2.1] Data Preparation
-[(Back to top)](#-increasing-profits-by-converting-casual-members-to-annual-members)
+[(Back to top)](#table-of-contents)
 
 We will be using data collected by Divvy (Cyclistic is the made-up name for this project) and made available by Motivate International Inc. under the license located here (https://www.divvybikes.com/data-license-agreement). Using the R programming language, 12 CSV files were aggregated with the first file starting from November 2020 and the last file was October 2021, approximately 1-year of data. Each month is used only once to remove bias towards a certain month and possibly a certain season. Note - No personal information stored and each ride is given a unique ride ID. 
 
@@ -80,7 +83,7 @@ The data is stored in Divvy's own servers and the customer's information is not 
 Thus, the credibility and integrity of the data is valid.
 
 ### [2.2] Data Processing
-[(Back to top)](#[1]project-description)
+[(Back to top)](#table-of-contents)
 
 The data was cleaned by:
 
@@ -98,9 +101,9 @@ The data was manipulated by:
 **The full data cleaning process can be found in a separate file under [Cyclistic Report].(docs/cyclistic-report)**
 
 ### [2.3] Data Analysis
-[(Back to top)](#[1]project-description)
+[(Back to top)](#table-of-contents)
 
-The full code for the following statistical analysis and visualizations can be found in a separate file under [Cyclistic Report].(docs/cyclistic-report)    .
+The full code for the following statistical analysis and visualizations can be found in a separate file under [Cyclistic Report].(.docs/cyclistic-report)    .
 
 As mentioned earlier, Cyclistic's financial analysts have concluded that annual members, labeled "members" in the dataset, are the key to the company's long-term success as they are more profitable.
 
@@ -109,7 +112,7 @@ From the following visualization, we can see that the annual members take more t
 
 - document conclusions and recommendations
 ## [4] Running instructions
-[(Back to top)](#[1]project-description)
+[(Back to top)](#table-of-contents)
 
 -how to run/replicate
 
@@ -132,7 +135,7 @@ To use this project, first clone the repo on your device using the command below
 ```git clone https://github.com/navendu-pottekkat/nsfw-filter.git``` -->
 
 ## [5] Updates to be made
-[(Back to top)](#[1]project-description)
+[(Back to top)](#table-of-contents)
 
 The following are some things I would like to add to this project for a deeper analysis:
 
@@ -141,7 +144,7 @@ The following are some things I would like to add to this project for a deeper a
     - Predictive analysis: using machine learning models on historical data to optimize marketing campaign
     
 # License
-[(Back to top)](#[1]project-description)
+[(Back to top)](#table-of-contents)
 
 <!-- Adding the license to README is a good practice so that people can easily refer to it.
 
@@ -152,7 +155,7 @@ I personally add the name of the license and provide a link to it like below. --
 [GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
 
 # Footer
-[(Back to top)](#[1]project-description)
+[(Back to top)](#table-of-contents)
 
 <!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
 
