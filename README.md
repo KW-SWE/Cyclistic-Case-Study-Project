@@ -59,14 +59,12 @@ The pricing plans they offer are (in USD):
 
 The financial analysts at Cyclistic have determined that converting casual members to annual members will maximize the long-term success of the company by increasing revenue. The marketing analyst team has been tasked with finding out how annual and casual members use Cyclistic's bike share service differently to help the marketing strategy team devise a media campaign to convert more casual members to Cyclistic members. The recommendations provided from the analysis will be reviewed by the Cyclistic executives. 
 
-[(Back to top)](#[1]project-description)
-
 ## [2] Prepare, process, analyze, visualize data
 - inferential stats (would need to add to actual project)
 - descriptive stats
 
 ### [2.1] Data Preparation
-[(Back to top)](#[1]project-description)
+[(Back to top)](#-increasing-profits-by-converting-casual-members-to-annual-members)
 
 We will be using data collected by Divvy (Cyclistic is the made-up name for this project) and made available by Motivate International Inc. under the license located here (https://www.divvybikes.com/data-license-agreement). Using the R programming language, 12 CSV files were aggregated with the first file starting from November 2020 and the last file was October 2021, approximately 1-year of data. Each month is used only once to remove bias towards a certain month and possibly a certain season. Note - No personal information stored and each ride is given a unique ride ID. 
 
