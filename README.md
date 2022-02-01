@@ -108,7 +108,7 @@ The full code for the following statistical analysis and visualizations can be f
 As mentioned earlier, Cyclistic's financial analysts have concluded that annual members, labeled "members" in the dataset, are the key to the company's long-term success as they are more profitable.
 
 From the following visualization, we can see that annual members take more trips than casual members. 
-<br><br><a href="/Report visualizations/Num_trips_per_type.JPG"><img src="/Report visualizations/Num_trips_per_type.JPG" style="width:30%;height:30%"/></a><br><br>
+<br><br><a href="/Report visualizations/Num_trips_per_type.JPG"><img src="/Report visualizations/Num_trips_per_type.JPG" style="width:45%;height:45%"/></a><br><br> 
 
 ## [3] Summary
 
