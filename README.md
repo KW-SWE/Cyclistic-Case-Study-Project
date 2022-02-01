@@ -110,6 +110,17 @@ As mentioned earlier, Cyclistic's financial analysts have concluded that annual 
 From the following visualization, we can see that annual members take more trips than casual members. 
 <br><br><a href="/Report visualizations/Num_trips_per_type.JPG"><img src="/Report visualizations/Num_trips_per_type.JPG" style="width:45%;height:45%"/></a><br><br> 
 
+---
+
+The following visualization shows the number of trips by member type (Casual vs. Annual member) based on the hour of the day. 
+
+The following observations were made:
+- Annual members still make more trips than casual members
+- Assuming common work hours are between 9am-5pm, we can see a large number of annual members using the service between 6am-10am. At 4pm, annual member's number of trips increase dramatically with the peak at 5pm and declining afterwards. It appears that these spikes in usage are from annual members commuting to work.  
+- After 11am, casual member's number of trips steadily increase until 7pm. As casual member trips are up to 30-minutes, they could be for leisure or commuting from point A to B. 
+
+<br><br><a href="/Report visualizations/Num_trips_per_type_BY_HOUR.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_HOUR.JPG" style="width:45%;height:45%"/></a><br><br> 
+
 ## [3] Summary
 
 - document conclusions and recommendations
