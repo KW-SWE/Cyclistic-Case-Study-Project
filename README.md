@@ -108,32 +108,66 @@ The full code for the following statistical analysis and visualizations can be f
 As mentioned earlier, Cyclistic's financial analysts have concluded that annual members, labeled "members" in the dataset, are the key to the company's long-term success as they are more profitable.
 
 From the following visualization, we can see that annual members take more trips than casual members. 
-<br><a href="/Report visualizations/Num_trips_per_type.JPG"><img src="/Report visualizations/Num_trips_per_type.JPG" style="width:45%;height:45%"/></a><br>
+
+<a href="/Report visualizations/Num_trips_per_type.JPG"><img src="/Report visualizations/Num_trips_per_type.JPG" style="width:45%;height:45%"/></a>
 
 ---
 
-The following visualization shows the number of trips by member type (Casual vs. Annual member) based on the hour of the day. 
+The following visualization shows the **number of trips by member type** (Casual vs. Annual member) based on the **hour of the day**. 
 
 The following observations were made:
 - Annual members still make more trips than casual members
 - Assuming common work hours are between 9am-5pm, we can see a large number of annual members using the service between 6am-10am. At 4pm, annual member's number of trips increase dramatically with the peak at 5pm and declining afterwards. It appears that these spikes in usage are from annual members commuting to work.  
-- After 11am, casual member's number of trips steadily increase until 7pm. As casual member trips are up to 30-minutes, they could be for leisure or commuting from point A to B. 
-<br><a href="/Report visualizations/Num_trips_per_type_BY_HOUR.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_HOUR.JPG" style="width:45%;height:45%"/></a><br>
+- After 11am, casual member's number of trips steadily increase until 7pm. As casual member trips are up to 30-minutes, they could be for leisure or commuting from point A to B.
+ 
+<a href="/Report visualizations/Num_trips_per_type_BY_HOUR.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_HOUR.JPG" style="width:50%;height:50%"/></a>
 
 ---
 
-The next plot shows the number of trips by member type (Casual vs. Annual member) based on the day of the week. 
+The next plot shows the **number of trips by member type** (Casual vs. Annual member) based on the **day of the week**. 
 
 Significant observations include:
 - Monday to Thursday have the lowest number of trips per day for the casual members and Friday, Saturday, Sunday having a significant spike in usage. Considering the previous visualization, this could be due to casual members mainly using Cyclistic for leisure purposes. Finding the time on the weekend and after work on Friday to enjoy a nice bike ride.
-- Annual members usage are quite consistent throughout the week with the highest usages during the weekdays. Since they have unlimited rides, they could use it for commuting to work, business breakfast/lunch/dinner meetings, or even grocery shopping. 
+- Annual members usage are quite consistent throughout the week with the highest usages during the weekdays. Since they have unlimited rides, they could use it for commuting to work, business breakfast/lunch/dinner meetings, or even grocery shopping. We could confirm this by analyzing where the rider's are starting and ending their rides. However, there are missing station names in the dataset which would not give us an accurate understanding of how the service is used based on location.
     
 We can see from the table below the plot that for casual members on the weekend, the average duration of their trips are much higher than the weekdays. Supporting the observation that they may use the service for leisure purposes. 
-<br><a href="/Report visualizations/Num_trips_per_type_BY_DAY.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_DAY.JPG" style="width:45%;height:45%"/></a><br>
+
+<a href="/Report visualizations/Num_trips_per_type_BY_DAY.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_DAY.JPG" style="width:50%;height:50%"/></a>
+
+---
+
+The bar-chart below shows the number of trips by member trip (Casual vs. Annual member) based on the month of the year, from November 2020 to October 2022. 
+
+Significant observations include:
+- The typical cold months of the winter season include November, December, Janurary, and Feburary. We can see from the plot that those months have the lowest usage for both types of members.
+- Casual member usage peaks in July but noticeably declines until October. A deeper analysis would be needed to fully understand why this happened. However, we can make the following hypotheses can be made: going back to school; going on vacation; decreasing tempertures causing a decrease in usage.
+- Annual members usage is consistent throughout the summer months. The nicer weather may want them to use bikes instead of public transportation or their personal vehicle.
+
+<a href="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG" style="width:50%;height:50%"/></a>
+
+---
+
+__**Summary Statistics**__
 
 
 ## [3] Summary
 
+The visuals for supporting the findings have been generated in the code chunks of the Analyze step. The most important findings are summarized below:
+
+Casual riders tend to take much longer rides than member riders.
+Casual riders take more rides during weekends than during weekdays, while member riders take similar number of rides throughout the week.
+Both casual and member riders take more rides during summer than during winter.
+Casual riders take fewer but longer rides in the winter.
+Nearly all docked bikes are used by casual riders for longer rides, whereas member riders don't use docked bikes.
+Casual riders often use stations at or near popular tourist destinations.
+Act
+The business task of this project is to convert casual riders to member riders. My recommendations are based upon creating or increasing the incentives of the annual membership that might look attractive to casual riders.
+
+Make the pricing plan for casual riders scale with the ride length (i.e., longer rides higher prices), while keeping the pricing plan for members constant with the ride length (i.e., same price for any ride length).
+Make the pricing plan for casual riders dependent on day of week (i.e., higher prices on weekends), while keeping the prices for members constant with the day of week.
+Develop and provide to members, free of charge, a smartphone app based on Google Maps, that provides, in addition to real-time bike traffic information and destination recommendations, many other functionality such as vital monitoring, health tracker, calories burned, gas money saved, bike buddies and professional trainers to chat with.
+Increase the number of bikes at stations around popular tourist destinations, especially on weekends during the summer.
+Increase the prices for docked bikes.
 - document conclusions and recommendations
 ## [4] Running instructions
 [(Back to TOC)](#table-of-contents)
