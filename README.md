@@ -66,6 +66,12 @@ The financial analysts at Cyclistic have determined that converting casual membe
 - inferential stats (would need to add to actual project)
 - descriptive stats
 
+My hypotheses to be reviewed at the end of the analysis: 
+
+    1. Casual members are single-pass or daily-pass users because they only need it for a short amount of time or for a one-time purpose, and do not think they would use an annual membership enough to justify the cost. 
+    2. The weekends may show a higher number of casual riders since people are off work and may want to enjoy a weekend bike ride at the park or around the city.
+    3. Annual members may justify purchasing the annual pass if they are able to use it enough times to cover purchasing the equivalent number of single or daily-passes, and more. Thus, weekdays may show a higher number of annual members than casuals as an annual members are most likely to use the service at least twice a day for work commutes. 
+
 ### [2.1] Data Preparation
 [(Back to TOC)](#table-of-contents)
 
@@ -146,9 +152,26 @@ Significant observations include:
 <a href="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG" style="width:50%;height:50%"/></a>
 
 ---
+[(Back to TOC)](#table-of-contents)
 
 __**Summary Statistics**__
 
+From the table below, the average ride duration (in minutes) for casual and annual member's is 17.45 and 12.19, respectively. We can confirm and compare this to the plot underneath it which shows the average ride duration per member type by day.
+
+<a href="/Report visualizations/SUMSTAT_avg_length_by_MEMBER.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_MEMBER.JPG" style="width:38%;height:38%"/></a>
+<br>
+<a href="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG"><img src="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG" style="width:38%;height:38%"/></a>
+
+---
+
+<a href="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG" style="width:30%;height:30%"/></a>
+
+---
+
+In the data cleaning process, we removed rows with the "docked_bike" variable as those bikes are normal bikes locked to public poles or racks and not at Cyclistic stations. So, the following table only has statistics for the classic and electric bike. We can subset the data to check the average ride duration based on the type of member and type of bike.
+
+As Cyclistic's electric fleet is fairly new, there is not as much data available compare to the classic fleet. We can see that the average ride duration is slightly lower for electric bikes for both groups of members. This could be because the electric bikes are pedal-assisted and much faster than the regular bikes. So, the user can get to their destination faster which would shorten the ride length. 
+<a href="/Report visualizations/SUMSTAT_avg_length_by_BIKE.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_BIKE.JPG" style="width:30%;height:30%"/></a>
 
 ## [3] Summary
 
