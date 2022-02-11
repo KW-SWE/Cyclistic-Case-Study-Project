@@ -158,11 +158,11 @@ __**Summary Statistics**__
 
 From the table below, the average ride duration (in minutes) for casual and annual member's is 17.45 and 12.19, respectively. We can confirm and compare this to the plot underneath it which shows the average ride duration per member type by day.
 
-<a href="/Report visualizations/SUMSTAT_avg_length_by_MEMBER.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_MEMBER.JPG" style="width:38%;height:38%"/></a>
+<a href="/Report visualizations/SUMSTAT_avg_length_by_MEMBER.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_MEMBER.JPG" style="width:20%;height:20%"/></a>
 
-<a href="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG"><img src="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG" style="width:45%;height:45%"/></a>
+<a href="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG"><img src="/Report visualizations/Avg_ride_length_per_type_by_DAY(new).JPG" style="width:45%;height:45%"/></a>
 
-<a href="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG" style="width:35%;height:35%"/></a>
+<a href="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_DAY(new).JPG" style="width:20%;height:20%"/></a>
 
 ---
 
