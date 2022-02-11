@@ -115,7 +115,7 @@ As mentioned earlier, Cyclistic's financial analysts have concluded that annual 
 
 From the following visualization, we can see that annual members take more trips than casual members. 
 
-<a href="/Report visualizations/Num_trips_per_type.JPG"><img src="/Report visualizations/Num_trips_per_type.JPG" style="width:45%;height:45%"/></a>
+<a href="/Report visualizations/Num_trips_per_type.JPG"><img src="/Report visualizations/Num_trips_per_type.JPG" style="width:50%;height:50%"/></a>
 
 ---
 
@@ -159,19 +159,20 @@ __**Summary Statistics**__
 From the table below, the average ride duration (in minutes) for casual and annual member's is 17.45 and 12.19, respectively. We can confirm and compare this to the plot underneath it which shows the average ride duration per member type by day.
 
 <a href="/Report visualizations/SUMSTAT_avg_length_by_MEMBER.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_MEMBER.JPG" style="width:38%;height:38%"/></a>
-<br>
-<a href="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG"><img src="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG" style="width:38%;height:38%"/></a>
+
+<a href="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG"><img src="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG" style="width:45%;height:45%"/></a>
 
 ---
 
-<a href="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG" style="width:30%;height:30%"/></a>
+<a href="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG" style="width:35%;height:35%"/></a>
 
 ---
 
 In the data cleaning process, we removed rows with the "docked_bike" variable as those bikes are normal bikes locked to public poles or racks and not at Cyclistic stations. So, the following table only has statistics for the classic and electric bike. We can subset the data to check the average ride duration based on the type of member and type of bike.
 
 As Cyclistic's electric fleet is fairly new, there is not as much data available compare to the classic fleet. We can see that the average ride duration is slightly lower for electric bikes for both groups of members. This could be because the electric bikes are pedal-assisted and much faster than the regular bikes. So, the user can get to their destination faster which would shorten the ride length. 
-<a href="/Report visualizations/SUMSTAT_avg_length_by_BIKE.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_BIKE.JPG" style="width:30%;height:30%"/></a>
+
+<a href="/Report visualizations/SUMSTAT_avg_length_by_BIKE.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_BIKE.JPG" style="width:35%;height:35%"/></a>
 
 ## [3] Summary
 
@@ -192,6 +193,7 @@ Develop and provide to members, free of charge, a smartphone app based on Google
 Increase the number of bikes at stations around popular tourist destinations, especially on weekends during the summer.
 Increase the prices for docked bikes.
 - document conclusions and recommendations
+
 ## [4] Running instructions
 [(Back to TOC)](#table-of-contents)
 
