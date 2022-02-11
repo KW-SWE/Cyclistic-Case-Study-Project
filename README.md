@@ -162,8 +162,6 @@ From the table below, the average ride duration (in minutes) for casual and annu
 
 <a href="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG"><img src="/Report visualizations/Avg_ride_length_per_type_by_DAY.JPG" style="width:45%;height:45%"/></a>
 
----
-
 <a href="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG"><img src="/Report visualizations/SUMSTAT_avg_length_by_DAY.JPG" style="width:35%;height:35%"/></a>
 
 ---
