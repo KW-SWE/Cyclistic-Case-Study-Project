@@ -4,7 +4,7 @@ From the following bar plot, we can see that annual members take more trips than
 
 ---
 
-<a href="/Report visualizations/Num_trips_per_type_BY_HOUR.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_HOUR.JPG" style="width:50%;height:50%"/></a>
+<a href="/Report visualizations/Avg_num_trips_per_type_BY_HOUR.JPG"><img src="/Report visualizations/Avg_num_trips_per_type_BY_HOUR.JPG" style="width:50%;height:50%"/></a>
 
 The plot above shows the **number of trips by member type** (Casual vs. Annual member) based on the **hour of the day**. 
 
