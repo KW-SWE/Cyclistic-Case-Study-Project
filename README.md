@@ -109,9 +109,7 @@ The data was manipulated by:
 ### [2.3] Data Analysis
 [(Back to TOC)](#table-of-contents)
 
-The full code for the following statistical analysis and visualizations can be found in a separate file under [Cyclistic Report].(.docs/cyclistic-report)    .
-
-As mentioned earlier, Cyclistic's financial analysts have concluded that annual members, labeled "members" in the dataset, are the key to the company's long-term success as they are more profitable.
+The full report for the statistical analysis and visualizations can be found in a separate file under [Cyclistic Report].(.docs/cyclistic-report).
 
 From the following visualization, we can see that annual members take more trips than casual members. 
 
