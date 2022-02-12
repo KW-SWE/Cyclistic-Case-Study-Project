@@ -32,7 +32,7 @@ We can see from the table below the plot that for casual members on the weekend,
 
 ---
 
-<a href="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG" style="width:50%;height:50%"/></a>
+<a href="/Report visualizations/Avg_num_TRIPS_per_type_BY_MONTH.JPG"><img src="/Report visualizations/Avg_num_TRIPS_per_type_BY_MONTH.JPG" style="width:50%;height:50%"/></a>
 
 This bar-chart shows the **number of trips by member type** (Casual vs. Annual member) based on **the month of the year, from November 2020 to October 2022.** 
 
