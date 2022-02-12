@@ -4,20 +4,20 @@ From the following bar plot, we can see that annual members take more trips than
 
 ---
 
-<a href="/Report visualizations/Avg_num_trips_per_type_BY_HOUR.JPG"><img src="/Report visualizations/Avg_num_trips_per_type_BY_HOUR.JPG" style="width:50%;height:50%"/></a>
+<a href="/Report visualizations/Avg_num_trips_per_type_BY_HOUR(new).JPG"><img src="/Report visualizations/Avg_num_trips_per_type_BY_HOUR(new).JPG" style="width:50%;height:50%"/></a>
 
 The plot above shows the **number of trips by member type** (Casual vs. Annual member) based on the **hour of the day**. 
 
 The following observations were made:
 - Annual members (in blue) 
-  - They still make more trips than casual members
+  - They still make more trips than casual members. Evident by the taller bars in blue.
   - Let's assume common work hours are between 9am-5pm. <br>
     We can see a large number of annual members using the service between 6am-10am. <br>
     At 4pm, annual member's number of trips increase significantly with the peak at 5pm and declining afterwards. <br>
-    It appears that these spikes in usage are from annual members commuting to work.  
+    It appears that these two spikes in usage are from annual members commuting to work.  
 - Casual members (in red)
-  - After 11am, casual member's number of trips steadily increase until 7pm. As casual member trips are up to 30-minutes, they could be for leisure or commuting from point A to B.
- 
+  - At 6am, casual member's number of trips steadily increasing until a peak at 6pm and then a sharp decrease until 11pm. As casual member trips are up to 30-minutes, they could be for leisure or commuting from point A to B.
+
 ---
 
 <a href="/Report visualizations/Num_trips_per_type_BY_DAY.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_DAY.JPG" style="width:40%;height:40%"/></a>
@@ -32,14 +32,15 @@ We can see from the table below the plot that for casual members on the weekend,
 
 ---
 
-The bar-chart below shows the number of trips by member trip (Casual vs. Annual member) based on the month of the year, from November 2020 to October 2022. 
+<a href="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG" style="width:50%;height:50%"/></a>
+
+This bar-chart shows the **number of trips by member type** (Casual vs. Annual member) based on **the month of the year, from November 2020 to October 2022.** 
 
 Significant observations include:
 - The typical cold months of the winter season include November, December, Janurary, and Feburary. We can see from the plot that those months have the lowest usage for both types of members.
-- Casual member usage peaks in July but noticeably declines until October. A deeper analysis would be needed to fully understand why this happened. However, we can make the following hypotheses can be made: going back to school; going on vacation; decreasing tempertures causing a decrease in usage.
+- Casual member usage peaks in July but noticeably declines until October. A deeper analysis would be needed to fully understand why this happened. However, we can make the following hypotheses: <br>
+  - Decline due to going back to school; going on vacation; decreasing tempertures causing a decrease in usage.
 - Annual members usage is consistent throughout the summer months. The nicer weather may want them to use bikes instead of public transportation or their personal vehicle.
-
-<a href="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG"><img src="/Report visualizations/Num_trips_per_type_BY_MONTH.JPG" style="width:50%;height:50%"/></a>
 
 ---
 [(Back to TOC)](#table-of-contents)
