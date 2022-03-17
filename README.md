@@ -36,8 +36,9 @@ This repository serves as the "all-in-one" area for my Google Data Analytics Cap
     - [[2.2] Data Processing](#[2.2]data-processing)
     - [[2.3] Data Analysis](#[2.3]data-analysis)
 - [[3] Summary](#[3]summary)
-- [[4] Running Instructions](#[4]running-instructions)
-- [[5] Future updates to be made](#[5]updates-to-be-made)
+- [[4] Act](#[4]act)
+- [[5] Running Instructions](#[4]running-instructions)
+- [[6] Future updates to be made](#[5]updates-to-be-made)
 - [Usage](#usage)
 - [Development](#development)
 - [Contribute](#contribute)
@@ -174,23 +175,25 @@ As Cyclistic's electric fleet is fairly new, there is not as much data available
 
 The visuals for supporting the findings have been generated in the code chunks of the Analyze step. The most important findings are summarized below:
 
-Casual riders tend to take much longer rides than member riders.
-Casual riders take more rides during weekends than during weekdays, while member riders take similar number of rides throughout the week.
-Both casual and member riders take more rides during summer than during winter.
-Casual riders take fewer but longer rides in the winter.
-Nearly all docked bikes are used by casual riders for longer rides, whereas member riders don't use docked bikes.
-Casual riders often use stations at or near popular tourist destinations.
-Act
+- Casual riders tend to take much longer rides than member riders.
+- Casual riders take more rides during weekends than during weekdays, while member riders take similar number of rides throughout the week.
+- Both casual and member riders take more rides during summer than during winter.
+- Casual riders take fewer but longer rides in the winter.
+- Nearly all docked bikes are used by casual riders for longer rides, whereas member riders don't use docked bikes.
+- Casual riders often use stations at or near popular tourist destinations.
+
+## [4] Act
 The business task of this project is to convert casual riders to member riders. My recommendations are based upon creating or increasing the incentives of the annual membership that might look attractive to casual riders.
 
-Make the pricing plan for casual riders scale with the ride length (i.e., longer rides higher prices), while keeping the pricing plan for members constant with the ride length (i.e., same price for any ride length).
-Make the pricing plan for casual riders dependent on day of week (i.e., higher prices on weekends), while keeping the prices for members constant with the day of week.
-Develop and provide to members, free of charge, a smartphone app based on Google Maps, that provides, in addition to real-time bike traffic information and destination recommendations, many other functionality such as vital monitoring, health tracker, calories burned, gas money saved, bike buddies and professional trainers to chat with.
-Increase the number of bikes at stations around popular tourist destinations, especially on weekends during the summer.
-Increase the prices for docked bikes.
+- Make the pricing plan for casual riders scale with the ride length (i.e., longer rides higher prices), while keeping the pricing plan for members constant with the ride length (i.e., same price for any ride length).
+- Make the pricing plan for casual riders dependent on day of week (i.e., higher prices on weekends), while keeping the prices for members constant with the day of week.
+- Develop and provide to members, free of charge, a smartphone app based on Google Maps, that provides, in addition to real-time bike traffic information and destination recommendations, many other functionality such as vital monitoring, health tracker, calories burned, gas money saved, bike buddies and professional trainers to chat with.
+- Increase the number of bikes at stations around popular tourist destinations, especially on weekends during the summer.
+- Increase the prices for docked bikes.
+
 - document conclusions and recommendations
 
-## [4] Running instructions
+## [5] Running instructions
 [(Back to TOC)](#table-of-contents)
 
 -how to run/replicate
@@ -213,7 +216,7 @@ To use this project, first clone the repo on your device using the command below
 
 ```git clone https://github.com/navendu-pottekkat/nsfw-filter.git``` -->
 
-## [5] Updates to be made
+## [6] Updates to be made
 [(Back to TOC)](#table-of-contents)
 
 The following are some things I would like to add to this project for a deeper analysis:
